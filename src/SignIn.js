@@ -28,7 +28,7 @@ function SignIn(submit) {
             <input ref={passRef} type="password"/>
             {/*<button type='submit'> submit </button>*/}
             {/*<button onClick={(e) => onSubmit(e)}> ENTER </button>*/}
-            <button onClick={(e) => submitt(emailRef.current.value, passRef.current.value)}> ENTER </button>
+            <button onClick={(e) => onSubmit(emailRef.current.value, passRef.current.value)}> ENTER </button>
         </>
     );
 }
