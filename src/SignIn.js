@@ -2,12 +2,12 @@ import './App.css';
 import {TextInput} from "@mantine/core";
 import {useRef, useState} from "react";
 
-const submitt = (e, p) => {
-    // setEmail(emailRef.current.value)
-    // setPassword(passRef.current.value)
-    // console.log(e)
-    console.log(e, p)
-}
+// const submitt = (e, p) => {
+//     // setEmail(emailRef.current.value)
+//     // setPassword(passRef.current.value)
+//     // console.log(e)
+//     console.log(e, p)
+// }
 
 function SignIn(submit) {
     const [email, setEmail] = useState('');
@@ -19,7 +19,7 @@ function SignIn(submit) {
         setEmail(emailRef.current.value)
         setPassword(passRef.current.value)
         // console.log(e)
-        // console.log(emailRef.current.value, passRef.current.value)
+        console.log(emailRef.current.value, passRef.current.value)
     }
 
     return (
